@@ -1,22 +1,49 @@
 # FFXIV Classical Concept Simulator
 
-This project is a simulator for the Classical Concept in the game Final Fantasy XIV.
+## Table of Contents
+
+- [FFXIV Classical Concept Simulator](#ffxiv-classical-concept-simulator)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+## Introduction
+
+The FFXIV Classical Concept Simulator is a web-based tool designed to help players of the popular MMORPG Final Fantasy XIV (FFXIV) understand and experiment with the game's classical concept mechanics. This simulator allows users to select different options and visualize the results, aiding in strategy development and understanding.
+
+## Features
+
+- **Selection of Options**: Users can select from a variety of options to simulate different scenarios.
+- **Visual Representation**: The simulator provides a visual representation of the selected options, making it easier to understand the mechanics.
+- **Timer**: A timer is included to help users understand the timing of different actions.
 
 ## Installation
 
-No installation is required to run this project. Simply open the `index.html` file in your web browser.
+To install the FFXIV Classical Concept Simulator, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/yourusername/ffxiv-classical-concept-simulator.git`
+2. Navigate to the project directory: `cd ffxiv-classical-concept-simulator`
+3. Open `index.html` in your web browser.
 
 ## Usage
 
-To use this simulator, open the `index.html` file in your web browser. You can select different options from the dropdown menus and click the "Generate" button to see the result.
-
-## Code Explanation
-
-The `script.js` file contains the main logic for the simulator. It defines a list of shapes and answers, and a function `myfunction()` that generates a random shape and answer when called. The function also updates the UI with the generated shape and answer, and starts a timer. The user can click on the elements in the UI to guess the answer, and the function checks if the guess is correct.
-
-The `style.css` file contains the styles for the simulator. It defines the layout of the simulator using CSS Grid, the styles for the shapes and the container that holds them, and the styles for the cross and chain elements.
+To use the FFXIV Classical Concept Simulator, select the desired options from the dropdown menus and click the "Generate" button. The simulator will then display a visual representation of the selected options.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+We welcome contributions from the community. If you'd like to contribute, please follow these steps:
 
+1. Fork the repository.
+2. Create a new branch: `git checkout -b your-branch-name`
+3. Make your changes.
+4. Commit your changes: `git commit -m "Your commit message"`
+5. Push to your branch: `git push origin your-branch-name`
+6. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
