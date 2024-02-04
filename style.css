@@ -1,0 +1,37 @@
+.div-table {
+    display: grid;
+    grid-template-columns: 20.96% 5.24% 20.96% 5.24% 20.96% 5.24% 20.96%;
+    grid-auto-rows: 25% 7% 25% 7% 25%;
+    padding: 2%;
+    width: 100vw;
+    height: 80vh;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    border: 5px solid black;
+}
+
+.shape {
+    background-color: rgb(31, 161, 100);
+    border: 1px solid black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 20vh;
+}
+
+.cross {
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+.chain {
+    background-color: rgb(135, 57, 199);
+    border: 1px solid black;
+    cursor: pointer;
+}
