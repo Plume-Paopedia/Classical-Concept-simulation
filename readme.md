@@ -38,7 +38,7 @@ To use the FFXIV Classical Concept Simulator, select the desired options from th
 We welcome contributions from the community. If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch: `git checkout -b your-branch-name`
+2. Create a new branch:
 3. Make your changes.
 4. Commit your changes: `git commit -m "Your commit message"`
 5. Push to your branch: `git push origin your-branch-name`
