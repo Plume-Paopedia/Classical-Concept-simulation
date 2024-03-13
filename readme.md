@@ -8,12 +8,11 @@
   - [Features](#features)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
   - [License](#license)
 
 ## Introduction
 
-The FFXIV Classical Concept Simulator is a web-based tool designed to help players of the popular MMORPG Final Fantasy XIV (FFXIV) understand and experiment with the game's classical concept mechanics. This simulator allows users to select different options and visualize the results, aiding in strategy development and understanding.
+The FFXIV Classical Concept Simulator is a web-based tool designed to help players  Final Fantasy XIV understand and experiment with the classical concept mechanics of P12S P2. This simulator allows users to select different options and visualize the results, aiding in strategy development and understanding.
 
 ## Features
 
@@ -33,16 +32,6 @@ To install the FFXIV Classical Concept Simulator, follow these steps:
 
 To use the FFXIV Classical Concept Simulator, select the desired options from the dropdown menus and click the "Generate" button. The simulator will then display a visual representation of the selected options.
 
-## Contributing
-
-We welcome contributions from the community. If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b your-branch-name`
-3. Make your changes.
-4. Commit your changes: `git commit -m "Your commit message"`
-5. Push to your branch: `git push origin new-branch`
-6. Create a pull request.
 
 ## License
 
