@@ -1,1 +1,24 @@
-caloricp12sp2.io
+def calculate_calories(p, c, f):
+    # Caloric values for protein, carbs, and fats
+    cal_per_gram = {
+        'p': 4,
+        'c': 4,
+        'f': 9
+    }
+
+    total_calories = 0
+
+    # Calculate calories for each macronutrient
+    for macronutrient, grams in locals().items():
+        if grams:
+            total_calories += cal_per_gram[macronutrient] * grams
+
+    return total_calories
+
+if __name__ == "__main__":
+    p = int(input("Enter the grams of protein: "))
+    c = int(input("Enter the grams of carbohydrates: "))
+    f = int(input("Enter the grams of fats: "))
+
+    total_calories = calculate_calories(p, c, f)
+    print(f"Total Calories: {total_calories}")
