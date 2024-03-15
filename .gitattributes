@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Auto-detect text files and perform LF normalization
+* ^(?i)(?!(\.|\/)(bin|obj|out|tmp|var|log|build|\.git|\.svn|\.hg|\.nuget|\.m2|node_modules|bower_components|\.vscode|\.idea))(?i).*(\.txt|\.text|\.log|\.config|\.ini|\.csv|\.properties)$
+:@	
