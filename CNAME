@@ -1,1 +1,5 @@
-caloricp12sp2.io
+def caloric_need(weight, age, activity_level, program="p12", area="sp2"):
+    """Calculate caloric needs based on user inputs and 12-week program (p12) or sports nutrition (sp2) area."""
+
+    # Caloric calculation constants
+    BMR_MULTIPLIER_MAN = 66 + (13.7 * weight) + (5 * age) - (6.8 * 
