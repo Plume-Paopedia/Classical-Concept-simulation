@@ -1,76 +1,40 @@
+/* Reset styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Variables */
+:root {
+    --main-bg-color: #2b2b2b;
+    --secondary-bg-color: #1b1b1b;
+    --grid-item-bg-color: #4d4d4d;
+    --grid-item-border-color: #555;
+    --grid-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    --grid-item-size: 20.96%;
+    --grid-gap: 2%;
+    --grid-rows: 25% 7% 25% 7% 25%;
+}
+
+/* Background and text styles */
 body {
-    background: linear-gradient(to right, #2b2b2b, #1b1b1b);
+    background: linear-gradient(to right, var(--main-bg-color), var(--secondary-bg-color));
     color: #f5f5f5;
     font-family: 'Arial', sans-serif;
 }
 
-.div-table {
+/* Grid container and items */
+.grid-container {
     display: grid;
-    grid-template-columns: 20.96% 5.24% 20.96% 5.24% 20.96% 5.24% 20.96%;
-    grid-auto-rows: 25% 7% 25% 7% 25%;
-    padding: 2%;
+    grid-template-columns: var(--grid-item-size) var(--grid-gap) var(--grid-item-size) var(--grid-gap) var(--grid-item-size) var(--grid-gap) var(--grid-item-size);
+    grid-template-rows: var(--grid-rows);
+    grid-template-areas:
+        "header header header header header header"
+        "shape shape shape shape shape shape"
+        "container container container container container container"
+        "cross cross cross cross cross cross"
+        "footer footer footer footer footer footer";
+    padding: var(--grid-gap);
     width: 100vw;
     height: 80vh;
-    background: linear-gradient(to bottom, #3c3c3c, #2c2c2c);
-    box-sizing: border-box;
-    border: 5px solid #444;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.shape {
-    background-color: #4d4d4d;
-    border: 1px solid #555;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 20vh;
-    background: linear-gradient(to right, #2b2b2b, #1b1b1b);
-}
-
-.cross {
-    background-color: #4d4d4d;
-    border: 1px solid #555;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.chain {
-    background-color: #4d4d4d;
-    border: 1px solid #555;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-#timer {
-    font-size: 30px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-
-/* Add a transition effect to all elements */
-
-* {
-    transition: all 0.3s ease;
-}
-
-
-/* Change the background color of chain elements when hovered over */
-
-.chain:hover {
-    background-color: #888;
-    transform: scale(1.1);
-}
-
-
-/* Change the background color of chain elements when clicked */
-
-.chain:active {
-    background-color: #555;
-}
+    background: linear-gradient(to bottom, #3c3c3c, #2c2c2c
